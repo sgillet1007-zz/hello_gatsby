@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 import Header from "../components/header"
 
 export default () => (
-  <div style={{ color: `teal` }}>
+  <div>
     <Link to="/">Home</Link>
-    <Header headerText="About Gatsby" />
-    <p>Such wow. Very React.</p>
+    <Header headerText="Photo Gallery" />
+    <p>photo gallery placeholder</p>
   </div>
 )
