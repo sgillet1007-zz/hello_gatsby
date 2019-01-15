@@ -7,7 +7,7 @@ export default props => {
             <Link id='band_name' to="/">The Constant Tourists</Link>
             <span className='header-links-container'>
             <Link className='nav-link' to="/booking/">Booking</Link>
-            <Link className='nav-link' to="/music/">Music</Link>
+            <Link className='nav-link' to="/albums/">Albums</Link>
             <Link className ='nav-link' to="/photos/">Photos</Link>
             </span>
         </div>
