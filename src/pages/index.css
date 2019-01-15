@@ -4,7 +4,7 @@ body {
     text-align: center;
     width: 100vw;
     margin: 0px;
-    font-family: 'Roboto', 'sans-serif'
+    font-family: 'times', 'helvetica'
 }
 
 .page-header {
@@ -18,8 +18,8 @@ body {
     line-height: 55px;
     padding-left: 10px;
     padding-right: 20px;
-    border-bottom: 1px #1b1b1b solid;
-    font-family: 'Limelight', 'cursive'
+    border-bottom: 2px #1b1b1b solid;
+    font-family: 'palatino', 'times', 'helvetica'
 }
 
 #band_name{
