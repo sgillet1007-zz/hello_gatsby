@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
+import PageHeader from "../components/page_header"
 
 export default () => (
   <div>
-    <Link to="/">Home</Link>
+    <PageHeader />
     <Header headerText="Contact" />
     <p>Book the band for an event!</p>
     <p>Sign up for the TCT mailing list!</p>

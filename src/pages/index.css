@@ -1,0 +1,74 @@
+body {
+    background-color: #1b1b1b;
+    color: #fffff7;
+    text-align: center;
+    width: 100vw;
+    margin: 0px;
+    font-family: 'Roboto', 'sans-serif'
+}
+
+.page-header {
+    height: 55px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: #424242;
+    width: 100vw;
+    line-height: 55px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-bottom: 1px #1b1b1b solid;
+    font-family: 'Limelight', 'cursive'
+}
+
+#band_name{
+  font-size: 1.9em;
+  float: left;
+}
+
+.header-links-container {
+    float: right;
+    width: 40vw;
+    min-width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #fffff7;
+}
+
+a.nav-link {
+    margin-left: 10px;
+}
+
+a:hover {
+    color: #fff9c4;
+}
+
+body .page-header + div .hero-image {
+    display: block;
+    width: 100vw;
+}
+
+#next-show {
+    height: 50px;
+    line-height: 50px;
+}
+
+.divider-heading {
+    height: 40px;
+    background-color: #424242;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.headshot {
+    border: 3px #fffff7 solid;
+    margin-top: 25px;
+}
+
+.bio-text {
+    width: 60vw;
+    margin: 0 auto;
+}
