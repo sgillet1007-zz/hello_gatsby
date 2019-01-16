@@ -51,6 +51,11 @@ body .page-header + div .hero-image {
     width: 100vw;
 }
 
+#audio_player_container {
+    height: 300px;
+    line-height: 300px;
+}
+
 #next-show {
     height: 50px;
     line-height: 50px;
@@ -71,4 +76,10 @@ body .page-header + div .hero-image {
 .bio-text {
     width: 60vw;
     margin: 0 auto;
+}
+
+/* Player styles */
+
+img.song-info__cover {
+    display: none;
 }
