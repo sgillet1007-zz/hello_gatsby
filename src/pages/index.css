@@ -18,7 +18,7 @@ body {
     line-height: 55px;
     padding-left: 10px;
     padding-right: 20px;
-    border-bottom: 2px #1b1b1b solid;
+    border: 2px #1b1b1b solid;
     font-family: 'palatino', 'times', 'helvetica'
 }
 
@@ -47,8 +47,10 @@ a:hover {
 }
 
 body .page-header + div .hero-image {
-    display: block;
+    display: cover;
     width: 100vw;
+    margin: 0px;
+    border: 2px #1b1b1b solid;
 }
 
 #audio_player_container {
@@ -79,7 +81,22 @@ body .page-header + div .hero-image {
 }
 
 /* Player styles */
+#audio-ribbon-container {
+    /* height: 50px;
+    line-height: 50px; */
+    /* background-color: #fff9c4; */
+}
 
-img.song-info__cover {
-    display: none;
+.audio-player {
+    margin: 0 auto;
+    width: 80vw !important;
+    /* can style with custom component props  */
+}
+
+.audio-player-seeker{
+    color: white !important;
+}
+
+.audio-player-volume{
+    display:none;
 }
