@@ -10,7 +10,9 @@ import './index.css'
 export default () => (
     <div>
         <PageHeader />
-        <img className='hero-image' src={band} alt="" />
+        <div class='hero-container'>
+            <img className='hero-image' src={band} alt="" />
+        </div>
         <TrackPlayer />
         <UpcomingShows />
         <BandBios />

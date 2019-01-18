@@ -14,7 +14,7 @@ import rewind_hover from '../images/icons/rewind_hover.png'
   const tracks = [
       {
           src: 'http://nebula.wsimg.com/788d768a30ec760f31e1cdc18418d0d8?AccessKeyId=04B75B702CB34F098443&disposition=0&alloworigin=1&type=audio',
-          title: 'In The City - Missed Connections'
+          title: 'In The City'
       },
       {
           src: 'http://nebula.wsimg.com/ebddcff358e271a11c11063583e84812?AccessKeyId=04B75B702CB34F098443&disposition=0&alloworigin=1&type=audio',
@@ -25,11 +25,11 @@ import rewind_hover from '../images/icons/rewind_hover.png'
   const rearrangePlayer = [
     {
         className: "audio-container",
-        // style: { justifyContent: 'center'},
+        style: { fontFamily: 'Montserrat', justifyContent: 'center'},
         innerComponents: [
             {
                 type: 'name',
-                style: {width: "35vw"}
+                style: {width: "fit-content"}
              },
             { 
                 type: 'rewind',
@@ -45,7 +45,7 @@ import rewind_hover from '../images/icons/rewind_hover.png'
              },
             { 
                 type: 'time',
-                style: {width: "35vw"}
+                style: {width: "100px"}
              }
         ]
     }
@@ -57,7 +57,8 @@ export default () => {
             <AudioPlayer 
                 audioFiles={tracks}
                 fontColor={'white'}
-                hideLoop
+                fontSize={'1em'}
+                iconSize={'2em'}
                 playIcon={play_arrow}
                 playHoverIcon={play_arrow_hover}
                 pauseIcon={pause}
@@ -66,11 +67,8 @@ export default () => {
                 forwardHoverIcon={forward_hover}
                 rewindIcon={rewind}
                 rewindHoverIcon={rewind_hover}
-                iconSize={'2em'}
-                fontFamily={'Helevetica'}
-                fontSize={'1.2em'}
-                sliderClass={'slider'}
                 hideSeeking
+                hideLoop
                 rearrange={rearrangePlayer}
             />
         </div>

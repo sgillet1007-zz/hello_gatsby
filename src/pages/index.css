@@ -1,10 +1,11 @@
 body {
+    position: relative;
     background-color: #1b1b1b;
     color: #fffff7;
     text-align: center;
     width: 100vw;
     margin: 0px;
-    font-family: 'times', 'helvetica'
+    font-family: 'Montserrat', sans-serif
 }
 
 .page-header {
@@ -19,12 +20,13 @@ body {
     padding-left: 10px;
     padding-right: 20px;
     border: 2px #1b1b1b solid;
-    font-family: 'palatino', 'times', 'helvetica'
+    font-family: 'Montserrat', sans-serif
 }
 
 #band_name{
   font-size: 1.9em;
   float: left;
+  font-family: 'Limelight', 'cursive';
 }
 
 .header-links-container {
@@ -46,10 +48,12 @@ a:hover {
     color: #fff9c4;
 }
 
-body .page-header + div .hero-image {
-    display: cover;
+.hero-image {
+    /* display: cover; */
     width: 100vw;
-    margin: 0px;
+    max-width: 1200px;
+    /* height: 90vh; */
+    opacity: 0.7;
     border: 2px #1b1b1b solid;
 }
 
@@ -68,11 +72,13 @@ body .page-header + div .hero-image {
     background-color: #424242;
     line-height: 40px;
     margin-bottom: 15px;
+    font-family: 'Limelight', cursive
 }
 
 .headshot {
     border: 3px #fffff7 solid;
     margin-top: 25px;
+    opacity: 0.7
 }
 
 .bio-text {
@@ -81,12 +87,6 @@ body .page-header + div .hero-image {
 }
 
 /* Player styles */
-#audio-ribbon-container {
-    /* height: 50px;
-    line-height: 50px; */
-    /* background-color: #fff9c4; */
-}
-
 .audio-player {
     margin: 0 auto;
     width: 80vw !important;
@@ -100,3 +100,20 @@ body .page-header + div .hero-image {
 .audio-player-volume{
     display:none;
 }
+
+/* Photos Styles */
+#photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
+    grid-gap: 20px;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.photos-image {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 70%;
+}
+@import url('https://fonts.googleapis.com/css?family=Limelight|Montserrat');
