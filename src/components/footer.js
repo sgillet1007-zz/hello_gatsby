@@ -1,1 +1,0 @@
-// add ship logo and social media links

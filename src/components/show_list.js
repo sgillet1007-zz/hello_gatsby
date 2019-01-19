@@ -1,13 +1,16 @@
 import React from 'react'
+import DividerHeading from '../components/divider_heading'
 
 export default () => {
     return (
         <div>
-                    <div className='divider-heading'>
-            <h2>Upcoming Shows</h2>
-        </div>
-        <div>January 26th  @ Marmot Arena Denver, CO 8pm - 11pm</div>
-        <div>January 28th @ Red Rocks Amphitheater Morrison, CO 10pm - 1am</div>
+            <DividerHeading headerText={'Upcoming Shows'} />
+            <div>
+                <strong>Private Event</strong> Denver, CO 
+                <div>
+                    Saturday January, 26th @ 8pm
+                </div>
+            </div>
         </div>
     )
 }

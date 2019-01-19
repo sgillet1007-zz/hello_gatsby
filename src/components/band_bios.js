@@ -1,4 +1,5 @@
 import React from 'react'
+import DividerHeading from '../components/divider_heading'
 import nate from "../images/nate.jpg"
 import cass from "../images/cass.jpg"
 import mike from "../images/mike.jpg"
@@ -7,9 +8,7 @@ import sam from "../images/sam.jpg"
 export default () => {
     return (
         <div>
-            <div className='divider-heading'>
-                <h2>The Band</h2>
-            </div>
+            <DividerHeading headerText={'The Band'} />
             <img className='headshot' src={nate} alt="" />
         <p className='bio-text'>
             <strong>Nate Sanchez</strong> - Guitar, Vocals, Songwriter, & Kazoo

@@ -5,7 +5,7 @@ import photos from "../images/photos"
 const images = photos.map(p => <img className='photos-image' src={p} alt="" />)
 
 export default () => (
-  <div>
+  <div id='photos-section'>
     <PageHeader />
     <div id='photos-grid'>
       {images}

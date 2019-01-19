@@ -49,10 +49,8 @@ a:hover {
 }
 
 .hero-image {
-    /* display: cover; */
     width: 100vw;
     max-width: 1200px;
-    /* height: 90vh; */
     opacity: 0.7;
     border: 2px #1b1b1b solid;
 }
@@ -89,8 +87,7 @@ a:hover {
 /* Player styles */
 .audio-player {
     margin: 0 auto;
-    width: 80vw !important;
-    /* can style with custom component props  */
+    width: 80vw !important
 }
 
 .audio-player-seeker{
