@@ -1,10 +1,10 @@
 import React from "react"
+import './index.css'
 import band from "../images/band.jpg"
 import PageHeader from "../components/page_header"
 import TrackPlayer from '../components/track_player'
 import UpcomingShows from '../components/show_list'
 import BandBios from '../components/band_bios'
-import './index.css'
 
 export default () => (
     <div>
