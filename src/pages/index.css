@@ -104,8 +104,8 @@ a:hover {
 /* Photos Styles */
 #photos-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 400px));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    grid-gap: 15px;
     align-items: center;
     margin-left: 40px;
     margin-top: 80px;

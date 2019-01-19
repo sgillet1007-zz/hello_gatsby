@@ -1,7 +1,5 @@
 import React from 'react'
 import AudioPlayer from 'react-modular-audio-player';
-// docs: https://retrofuturejosh.github.io/demo-react-modular-audio-player/#/docs
-
 import play_arrow from '../images/icons/play_arrow.png'
 import play_arrow_hover from '../images/icons/play_arrow_hover.png'
 import pause from '../images/icons/pause.png'
@@ -73,5 +71,4 @@ export default () => {
             />
         </div>
     )
-    // TODO - make player background same as body background and font lighter color
 }
