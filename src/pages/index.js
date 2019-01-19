@@ -9,7 +9,7 @@ import BandBios from '../components/band_bios'
 export default () => (
     <div>
         <PageHeader />
-        <div class='hero-container'>
+        <div className='hero-container'>
             <img className='hero-image' src={band} alt="" />
         </div>
         <TrackPlayer />

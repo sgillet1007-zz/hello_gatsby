@@ -5,6 +5,9 @@ export default () => {
     return (
         <div>
             <PageHeader />
+            Albums
+            Videos
+            Photos
         </div> 
     )
 }
