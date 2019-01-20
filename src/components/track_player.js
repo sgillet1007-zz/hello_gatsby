@@ -23,11 +23,11 @@ import rewind from '../images/icons/rewind.png'
   const rearrangePlayer = [
     {
         className: "audio-container",
-        style: { fontFamily: 'Montserrat', alignItems: 'center', justifyContent: 'space-between'},
+        style: { fontFamily: 'Montserrat', fontSize: '0.9rem', alignItems: 'center', justifyContent: 'space-between'},
         innerComponents: [
             {
                 type: 'name',
-                style: {width: "fit-content"}
+                style: {width: "100px"}
              },
             { 
                 type: 'rewind',

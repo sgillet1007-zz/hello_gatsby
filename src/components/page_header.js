@@ -37,14 +37,14 @@ export default class PageHeader extends Component {
                 <span id='toggle_nav_tray' onClick={this.onToggle}>{this.renderNavToggle()}</span>
                 <div id='band_name_container'>
                     <hr className='decoration' />
-                        <Link id='band_name' onClick={this.onToggle} to="/">The Constant Tourists</Link>
+                        <Link id='band_name' to="/">The Constant Tourists</Link>
                     <hr className='decoration' />
                 </div>
                 {this.state.show_nav && (
                     <div id='nav_tray'>
-                        <Link className='nav-link' id='nav-media' to="/photos/">Media</Link>
-                        <Link className='nav-link' id='nav-media' to="/">Home</Link>
-                        <Link className='nav-link' id='nav-booking' to="/contact/">Booking</Link>
+                        <Link className='nav-link' id='nav-media' to="/media/">{'- Media -'}</Link>
+                        <Link className='nav-link' id='nav-media' to="/">{'- Home -'}</Link>
+                        <Link className='nav-link' id='nav-booking' to="/contact/">{'- Contact -'}</Link>
                     </div>)
                 }
             </div>

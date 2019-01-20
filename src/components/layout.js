@@ -3,7 +3,7 @@ import PageHeader from './page_header'
 import PageFooter from './page_footer'
 
 export default ({ children }) => (
-    <div>
+    <div id="layout-container">
         <PageHeader />
         {children}
         <PageFooter />
